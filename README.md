@@ -2,7 +2,7 @@
 ### Matter Supply / Outpost Industries
 ### Frontend Technologist
 
-						
+
 ## Intro
 
 The idea is that you display the skills required to build scalable frontend applications. In this code challenge, you will be asked to build a single page application in the framework React JS, consuming web services and building a presentable UI.
@@ -24,13 +24,22 @@ Overall, we expect you to document your work. A well documented approach in this
 We're transporting you back to the early 2000's – we're building a quick blog. We're asking you to build an application with two pages:
 
 - Blog posts, to display a list blog posts and a short excerpt, and
-- Post detail, to display a full blog post. 
+- Post detail, to display a full blog post.
 
-The backend for this blog are Github Gists. The idea is that you can enter  a username to look up on Github and the index page (blog posts) will display excerpts of all the user saved Gists. The post detail page will then display the full content of the gist. 
+The backend for this blog are Github Gists. The idea is that you can enter  a username to look up on Github and the index page (blog posts) will display excerpts of all the user saved Gists. The post detail page will then display the full content of the gist.
 
 Blog posts page must be searchable, and Post details page must be able to show its formatted Markdown as HTML in the case Gists content was saved with `.md` extension.
 
 ## Requirements
+
+### Markup/UI implementation
+
+Paying attention to details is important, also using good UI patterns at the moment of implementing a design. In this repository you'll find some files to support your work on:
+
+- Design: `/support-files/designs/`
+- Fonts: `/support-files/fonts/`
+
+You'll be challenge to implement a clean UX using those files to base your experience on
 
 ### As a reader (non logged user)
 
