@@ -130,26 +130,32 @@ const UserPostComponent = () => {
   };
 
   const setDataGists = (data) => {
-    if (!data.length) {
-      console.log("The user does not have Gists");
-    } else {
-      for (let i = 0; i < data.length; i++) {
-        const listContainer = document.querySelector(".gists-list");
-        const listItem = document.createElement("li");
-        const title = document.createElement("span");
-        const link = document.createElement("a");
+    const titles = data.reduce((results, titles) => {
+      const fileName = Object.keys(titles.files)[0];
+      const gistUrl = titles["html_url"];
+      const date = titles["created_at"];
 
-        const titles = Object.entries(data[i].files);
-        const linkUrl = Object.entries(data[i]);
+      results.push({
+        fileName,
+        gistUrl,
+        date,
+      });
 
-        link.setAttribute("href", linkUrl[7][1]);
-        listContainer.appendChild(listItem).innerHTML = new Date(
-          data[i].created_at
-        );
-        listItem.appendChild(title).innerHTML = titles[0][0];
-        title.appendChild(link).innerHTML = "Read";
-      }
-    }
+      return results;
+    }, []);
+    console.log(titles);
+
+    const listItems = titles.map(({ fileName, gistUrl, date }, index) => (
+      <li key={index}>
+        {date}
+        <a href={gistUrl} target="_blank">
+          Read
+        </a>
+        <span>{fileName}</span>
+      </li>
+    ));
+    console.log(data);
+    setGistTitle(listItems);
   };
 
   const searchFunction = (e) => {
@@ -191,7 +197,7 @@ const UserPostComponent = () => {
           <p className="regular-font">{name}</p>
           <p className="light-font">{userName}</p>
         </aside>
-        <ul className="gists-list regular-font"></ul>
+        <ul className="gists-list regular-font">{gistTitle}</ul>
       </article>
     </section>
   );
