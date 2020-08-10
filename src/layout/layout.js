@@ -1,20 +1,23 @@
 import MainLogo from "../../assets/main-logo.svg";
+import ImageComponent from "../components/ImageComponent";
 
 // Import utilities
 import styled from "@emotion/styled";
 
-const Section = styled.section`
-  background-image: url(/images/bg-image.png);
-  background-repeat: no-repeat;
-  background-position: top right;
+const Header = styled.header`
+  margin-top: 3rem;
+  margin-bottom: 4rem;
 `;
 
 const Layout = ({ children }) => (
   <>
-    <header className="container">
+    <Header className="container">
       <MainLogo />
-    </header>
-    <Section className="container">{children}</Section>
+    </Header>
+    <section className="container">
+      <section className=" col-2">{children}</section>
+      <ImageComponent />
+    </section>
   </>
 );
 export default Layout;

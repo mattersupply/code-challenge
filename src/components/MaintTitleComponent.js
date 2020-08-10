@@ -1,6 +1,12 @@
 import React from "react";
+import styled from "@emotion/styled";
+
+const H1 = styled.h1`
+  color: #162bd4;
+  font-size: 8rem;
+`;
 const MainTitleComponent = () => {
-  return <h1 className="regular-font">This is the main title</h1>;
+  return <H1 className="light-font">Blog msco.</H1>;
 };
 
 export default MainTitleComponent;

@@ -1,11 +1,15 @@
+import styled from "@emotion/styled";
+
+const P = styled.p`
+  font-size: 1rem;
+  color: #565656;
+  margin-bottom: 2rem;
+`;
+
 const ParagraphTitleComponent = (date) => (
-  <p>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit natus sed,
-    iure excepturi animi at expedita ex quod. Repellendus at ab exercitationem
-    tenetur modi, rem quam alias porro nisi voluptate!Officia quam commodi ut
-    maxime provident, et, laudantium sed a non ipsum minima facilis sunt nulla
-    vel! Eligendi voluptas consequuntur doloremque fugiat ex cumque nemo,
-    doloribus quasi eveniet cupiditate culpa?
-  </p>
+  <P className="regular-font">
+    Explore the unknown. Uncover what matters. Prototype, test, repeat. Combine
+    intuition with evidence. Design with intent and build it right.
+  </P>
 );
 export default ParagraphTitleComponent;

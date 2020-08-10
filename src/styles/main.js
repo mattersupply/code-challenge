@@ -20,6 +20,7 @@ const main = css`
   .container {
     max-width: 1370px;
     margin: auto;
+    display: flex;
   }
   .light-font {
     font-family: "neuehanskendrick-light";
@@ -33,6 +34,9 @@ const main = css`
 
   .blue {
     color: blue;
+  }
+  .col-2 {
+    width: 50%;
   }
 `;
 
