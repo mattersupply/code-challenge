@@ -47,9 +47,11 @@ const userPostStyles = css`
   }
   article {
     margin-top: 5rem;
+    div {
+      display: flex;
+    }
     figure {
       border-radius: 50px;
-      display: inline-block;
       height: 70px;
       margin-top: 0;
       overflow: hidden;
@@ -60,7 +62,6 @@ const userPostStyles = css`
       }
     }
     aside {
-      display: inline-block;
       p:first-of-type {
         font-size: 2rem;
         margin-top: 0;
@@ -190,13 +191,15 @@ const UserPostComponent = () => {
       </Form>
 
       <article>
-        <figure>
-          <img src={avatar} alt={userName} />
-        </figure>
-        <aside>
-          <p className="regular-font">{name}</p>
-          <p className="light-font">{userName}</p>
-        </aside>
+        <div>
+          <figure>
+            <img src={avatar} alt={userName} />
+          </figure>
+          <aside>
+            <p className="regular-font">{name}</p>
+            <p className="light-font">{userName}</p>
+          </aside>
+        </div>
         <ul className="gists-list regular-font">{gistTitle}</ul>
       </article>
     </section>
