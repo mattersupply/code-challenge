@@ -1,6 +1,7 @@
+/**Main layout */
 import Layout from "../layout/layout";
 
-// COMPONENTS
+/**Components */
 import MainTitle from "../components/MaintTitleComponent";
 import ParagraphTitleComponent from "../components/ParagraphTitleComponent";
 import UserPostComponent from "../components/UserPostComponent";
