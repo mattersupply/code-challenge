@@ -6,7 +6,7 @@
 
 ## Intro
 
-This Blog is SSR App with Next.js and React to get GitHub Public Gists lists and URL for any Github User using the Rest API from GitHub
+This Blog is SSR App with Next.js and React to get GitHub Public Gists lists and URL for any Github User. For This proyect I'm using the Rest API from GitHub
 
 ## Install packages
 
