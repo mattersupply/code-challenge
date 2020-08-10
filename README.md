@@ -26,15 +26,16 @@ Then go to
 
 ## To buil the project and other features, read the package.json scripts
 
-````"scripts": {
+```"scripts": {
     "dev": "next",
     "build": "next build",
     "start": "next start",
     "storybook": "start-storybook",
     "build-storybook": "build-storybook"
-  },```
+     },`
+ ``
 
 ### Using the Blog
  Enter a Valid GitHub user name in the search bar and pess enter.
  The results will show all the files list in the Public Gists of the user include the Gist url.
-````
+```
