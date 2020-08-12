@@ -1,0 +1,8 @@
+{
+  "presets": [
+    "next/babel",
+    "@babel/preset-react",
+    "@emotion/babel-preset-css-prop"
+  ],
+  "plugins": ["inline-react-svg"]
+}
