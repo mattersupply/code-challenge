@@ -1,6 +1,6 @@
 # CODE CHALLENGE
-### Matter Supply / Outpost Industries
-### Frontend Technologist
+### Matter Supply Co.
+### Technologist (Web Technologies)
 
 
 ## Intro
