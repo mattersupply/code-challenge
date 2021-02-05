@@ -7,15 +7,15 @@
 
 The idea is that you display the skills required to build scalable frontend applications. In this code challenge, you will be asked to build a single page application in the framework React JS, consuming web services and building a presentable UI.
 
-You will be required to make a trade off between visual aesthetics, scalability, test coverage and feature completeness. When we grade your code challenge, we will take that into account, none of your work gets discarded regardless if it was completed or not. We are aware that the time we propose for this code challenge is short to deliver a complete solution.
+You will be required to make a trade-off between visual aesthetics, scalability, test coverage, and feature completeness. When we grade your code challenge, we will take that into account — none of your work gets discarded regardless if it was completed or not. We are aware that the time we propose for this code challenge is short to deliver a complete solution.
 
-The first aspect that we pay attention to is the user experience; like load times, clarity of interactions, thoughtful and well executed animations as well as an eye for details. We have a strong focus on quality and one major indicator of quality is the quality of the user interface.
+The first aspect that we pay attention to is the user experience: load times, clarity of interactions, thoughtful and well executed animations, as well as an eye for detail. We place a strong focus on quality and one major indicator of quality is the quality of the user interface.
 
-A second aspect is the structure of your application. While this application doesn't necessarily warrant one of the big frameworks, we'd still like to see how you would implement this as part of a larger scale initiative if time permits. At Matter Supply, we're often tasked with architecting larger frontend initiatives.
+The second aspect is the structure of your application. While this application doesn't necessarily warrant one of the big frameworks, we'd still like to see how you would implement this as part of a larger scale initiative if time permits. At Matter Supply, we're often tasked with architecting larger frontend initiatives.
 
-A third aspect is testing. We're not looking for 100% coverage or much coverage at all. But we'd like to see how you fare in setting up basic testing structures.
+The third aspect is testing. We're not looking for 100% coverage or much coverage at all. But we'd like to see how you fare in setting up basic testing structures.
 
-We would love to get to know you in-depth, and so feel free to provide us code samples of your work in addition to this challenge. Github repos or code snippets work just fine. Don’t hesitate in adding your thoughts in, as all is accountable for evaluation.
+We would love to get to know you in-depth, so feel free to provide us code samples of your work in addition to this challenge. Github repos or code snippets work just fine. Don’t hesitate to add your thoughts, as all is accountable for evaluation.
 
 Overall, we expect you to document your work. A well documented approach in this instance is better than a complete solution as we want to understand your thinking process and your ability to work with others within a distributed team overseas.
 
@@ -34,31 +34,31 @@ Blog posts page must be searchable, and Post details page must be able to show i
 
 ### Markup/UI implementation
 
-Paying attention to details is important, also using good UI patterns at the moment of implementing a design. In this repository you'll find some files to support your work on:
+Paying attention to details is important, so is using good UI patterns at the moment of implementing a design. In this repository you'll find some files to support your work on:
 
 - Design: `/support-files/designs/`
 - Fonts: `/support-files/fonts/`
 
-You'll be challenge to implement a clean UX using those files to base your experience on
+You'll be challenged to implement a clean UX using those files to base your experience on.
 
 ### As a reader (non logged user)
 
 - As a reader, I want to be able to see a list of blog posts that a writer has posted on Github in the form of Gists.
 - As a reader, I want to be able to select a post on the index page and see the post details, it must be presented in HTML if Gist was a Markdown file.
-- As a reader, I want to be able to navigate from a post to the next post so that I can read the next post.
+- As a reader, I want to be able to navigate from post to post, easily reading the next post.
 - As a reader, I want to be able to navigate back to the index page from a post so that I can select a different post to read.
 
 ### As awritter (logged in user)
 
 - As a writer, I want to be able to post a Gist to Github and have that post show up on my blog so that a reader can read the new post.
-- As a writer, I want to be able to make updates to a post by updating the Gist,  so that I can correct typos and make content updates.
+- As a writer, I want to be able to make updates to a post by updating the Gist, so that I can correct typos and make content updates.
 
 ## Questions
 
 - What are your thoughts around continuous integration, where & how you would deploy this application?
-- What do you think you would do different if you had 2 weeks to complete this assignment and no requirement to use Github. What would your backend solution look like?
+- What do you think you would do differently if you had 2 weeks to complete this assignment and no requirement to use Github. What would your backend solution look like?
 - How and where do you feel like this application should be deployed to?
-- Are you happy with your own solutions? If yes, what parts do you think are really well done, if not, what would you want to change?
+- Are you happy with your own solutions? If yes, which parts do you think are really well done, if not, what would you want to change?
 
 ## Delivery
 
@@ -68,4 +68,4 @@ Feel free to deliver this as your standard NPM/Yarn type of installation. Docker
 
 We really want to thank you for taking the time to run through this code challenge. We value your time immensely. If you have any suggestions as to how we could improve this exercise, please let us know.
 
-Again, thanks! and happy coding :)
+Again, thanks! And happy coding :)
