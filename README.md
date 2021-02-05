@@ -9,13 +9,13 @@ The idea is that you display the skills required to build scalable frontend appl
 
 You will be required to make a trade off between visual aesthetics, scalability, test coverage and feature completeness. When we grade your code challenge, we will take that into account, none of your work gets discarded regardless if it was completed or not. We are aware that the time we propose for this code challenge is short to deliver a complete solution.
 
-As a first aspect we pay attention to user experience aspects like small load times, clear communication of what is happening, well done animations as well as your good eye for details. We have a strong focus on delivered quality and one major indicator of quality is the quality of the user interface.
+The first aspect that we pay attention to is the user experience; like load times, clarity of interactions, thoughtful and well executed animations as well as an eye for details. We have a strong focus on quality and one major indicator of quality is the quality of the user interface.
 
 A second aspect is the structure of your application. While this application doesn't necessarily warrant one of the big frameworks, we'd still like to see how you would implement this as part of a larger scale initiative if time permits. At Matter Supply, we're often tasked with architecting larger frontend initiatives.
 
 A third aspect is testing. We're not looking for 100% coverage or much coverage at all. But we'd like to see how you fare in setting up basic testing structures.
 
-We would love to get to know you in deep, and so feel free to provide us code samples of your work in addition to this challenge. Github repos or code snippets work just fine. Don’t hesitate in adding your thoughts in, as all is accountable for evaluation.
+We would love to get to know you in-depth, and so feel free to provide us code samples of your work in addition to this challenge. Github repos or code snippets work just fine. Don’t hesitate in adding your thoughts in, as all is accountable for evaluation.
 
 Overall, we expect you to document your work. A well documented approach in this instance is better than a complete solution as we want to understand your thinking process and your ability to work with others within a distributed team overseas.
 
